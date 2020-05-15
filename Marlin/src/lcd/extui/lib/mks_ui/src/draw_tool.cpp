@@ -74,8 +74,8 @@ static void event_handler(lv_obj_t * obj, lv_event_t event)
 	    }
 	    else if(event == LV_EVENT_RELEASED) {
 	        #if ENABLED(AUTO_BED_LEVELING_BILINEAR)
-			enqueue_one_P(PSTR("G28"));
-			enqueue_one_P(PSTR("G29"));
+			queue.enqueue_one_P(PSTR("G28"));
+			queue.enqueue_one_P(PSTR("G29"));
 			#else
 			uiCfg.leveling_first_time = 1;
 			lv_clear_tool();

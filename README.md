@@ -14,6 +14,8 @@ I don't actually own a Sapphire Plus, but compiled it for some people. Use it at
 * Junction Deviation (0.05)
 * More menu items in the display menu (PID tuning, homing, ...)
 * Filament sensor is disabled
+* UART ready
+* Neopixel ready
 * probably forgot some things
 
 ## License

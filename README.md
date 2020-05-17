@@ -10,6 +10,7 @@ I don't actually own a Sapphire Plus, but compiled it for some people. Use it at
 ## Features
 
 * Linear Advance (optional)
+* Connect heatsink fan to HE1 (connector for the second hotend) - automatically turns on/off at 50°C (optional)
 * Classic Jerk disabled
 * Junction Deviation (0.05)
 * More menu items in the display menu (PID tuning, homing, ...)

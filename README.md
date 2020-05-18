@@ -3,8 +3,6 @@
 This is a fork of this repository, adapted to the Sapphire Plus
 https://github.com/le3tspeak/Marlin-2.0.X-Sapphire-PRO
 
-Which itself is a fork of the current bugfix version of Marlin >2.0.5.3
-
 I don't actually own a Sapphire Plus, but compiled it for some people. Use it at your own risk.
 
 ## Features

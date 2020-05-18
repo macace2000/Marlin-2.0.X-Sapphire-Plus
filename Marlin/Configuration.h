@@ -554,9 +554,14 @@
   //#define DEFAULT_bedKd 1675.16
 
   // Sapphire Pro
-  #define DEFAULT_bedKp 21.37
-  #define DEFAULT_bedKi 3.29
-  #define DEFAULT_bedKd 92.53
+//  #define DEFAULT_bedKp 21.37
+  //#define DEFAULT_bedKi 3.29
+  //#define DEFAULT_bedKd 92.53
+
+  // Sapphire Plus (M303 E-1 C8 S60)
+  #define DEFAULT_bedKp 46.61
+  #define DEFAULT_bedKi 8.55
+  #define DEFAULT_bedKd 169.40
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
